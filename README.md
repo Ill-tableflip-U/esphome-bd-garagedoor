@@ -10,7 +10,8 @@ the B&D stock remote control can be opened up and modified for control use with 
 These all go inside the shell for the remote and can be directly soldered to it. Keep in mind, this likely only fits with the larger, white remote shells like the one pictured.
 ![remote control modification](https://github.com/user-attachments/assets/71d5640e-401c-4cfa-b7e1-5797fa53c30a)
 ![image](https://github.com/user-attachments/assets/083f498e-e0d8-470b-9b31-54c3dcf33ad1)
-In the images, the blue wires are for power, to hardwire the remote power along with the ESP. First, eject the button cell battery as that will no longer be needed, and solder:
+In the images, the blue wires are for power, to hardwire the remote power along with the ESP. The red and white wires are the control outputs, for controlling the doors.
+First, eject the button cell battery as that will no longer be needed, and solder:
 * A ground wire to the 0v pad on the rear of the remote board
 * A 3.3v wire to the top of the button cell battery receptacle
 * A control wire to the junction between the two resistors of each button you intend on controlling
