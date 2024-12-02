@@ -1,12 +1,20 @@
 # esphome B&D garage door configuration
 
-This is how to build an ESPhome device to interface with a B&D garage door with ESPhome (specifically a 2012 model)
+This is how to build a complete pre-designed ESPhome device to interface with a B&D garage door, by simulating button presses on one of the included remotes (specifically a 2012 model)
 
-
+Material list:
+* 1 ESP32-C3 supermini
+* A decent amount of wire
+* A 5v/USB power source
+* access to a 3d printer
+optional:
+* 1 ws2812 LED
+* 1 hc-sr501 motion sensor
 the B&D stock remote control can be opened up and modified for control use with ESPhome. for each garage door, the following is needed:
 * 1 BC559 PNP transistor
 * 1 10K ohm pullup resistor
 * 1 1M ohm resistor for the base pin
+* 1 reed switch (I recommend https://www.aliexpress.com/item/1005007038721944.html)
 These all go inside the shell for the remote and can be directly soldered to it. Keep in mind, this likely only fits with the larger, white remote shells like the one pictured.
 
 ![remote control modification](https://github.com/user-attachments/assets/71d5640e-401c-4cfa-b7e1-5797fa53c30a)
